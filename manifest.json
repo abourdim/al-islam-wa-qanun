@@ -1,0 +1,12 @@
+{
+  "name": "Islam & Personal Status Law — الإسلام وقانون الأحوال الشخصية",
+  "short_name": "الأحوال الشخصية",
+  "description": "Interactive trilingual app based on Sheikh Mohammed al-Ghazali's book",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5D4037",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": []
+}
