@@ -231,6 +231,36 @@ const CARDS = [
     ar:{title:'الأسرة أساس المجتمع',desc:'المجتمع القوي يبدأ من أسرة قوية. حماية الأسرة حماية للأمة.',detail:'الغزالي يرى أن إصلاح قوانين الأحوال الشخصية هو المدخل لإصلاح المجتمع كله.',action:'ابدأ الإصلاح من بيتك وأسرتك'},
     en:{title:'Family is Society\'s Foundation',desc:'A strong society starts with a strong family. Protecting the family protects the nation.',detail:'Al-Ghazali believes that reforming personal status laws is the gateway to reforming all of society.',action:'Start reform from your home and family'},
     fr:{title:'La Famille est le Fondement de la Societe',desc:'Une societe forte commence par une famille forte. Proteger la famille, c\'est proteger la nation.',detail:'Al-Ghazali croit que la reforme des lois du statut personnel est la porte d\'entree pour reformer toute la societe.',action:'Commencez la reforme depuis votre foyer et votre famille'}
+  },
+  {
+    id:21, emoji:'👨‍👩‍👧',
+    ar:{title:'إصلاح نظام الحضانة',desc:'نظام الحضانة يحتاج إصلاحاً جذرياً يراعي مصلحة الطفل أولاً لا مصلحة أحد الوالدين.',detail:'الغزالي يؤكد أن الحضانة أمانة لا ملكية، وأن القاضي يجب أن ينظر في مصلحة الطفل النفسية والتعليمية.',verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا وَلَا مَوْلُودٌ لَّهُ بِوَلَدِهِ',verseRef:'البقرة ٢: ٢٣٣',action:'ادعم مبادرات إصلاح قوانين الحضانة في بلدك'},
+    en:{title:'Reforming the Custody System',desc:'The custody system needs fundamental reform that prioritizes the child\'s welfare, not either parent\'s interests.',detail:'Al-Ghazali affirms that custody is a trust, not ownership, and that the judge must consider the child\'s psychological and educational welfare.',verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا وَلَا مَوْلُودٌ لَّهُ بِوَلَدِهِ',verseRef:'Al-Baqarah 2:233',action:'Support custody law reform initiatives in your country'},
+    fr:{title:'Reformer le Systeme de Garde',desc:'Le systeme de garde necessite une reforme fondamentale qui donne la priorite au bien-etre de l\'enfant, pas aux interets des parents.',detail:'Al-Ghazali affirme que la garde est une fiducie, pas une propriete, et que le juge doit considerer le bien-etre psychologique et educatif de l\'enfant.',verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا وَلَا مَوْلُودٌ لَّهُ بِوَلَدِهِ',verseRef:'Al-Baqarah 2:233',action:'Soutenez les initiatives de reforme des lois de garde dans votre pays'}
+  },
+  {
+    id:22, emoji:'🔞',
+    ar:{title:'جدل سن الزواج',desc:'تحديد سن أدنى للزواج ضرورة شرعية وإنسانية. الإسلام يشترط البلوغ والرشد والقدرة على تحمل المسؤولية.',detail:'الغزالي يوضح أن زواج الأطفال يتعارض مع مقاصد الشريعة في حفظ النفس والعقل والنسل.',verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',verseRef:'النساء ٤: ٦',action:'تعرف على قوانين سن الزواج في بلدك وقارنها بالمقاصد الشرعية'},
+    en:{title:'The Marriage Age Debate',desc:'Setting a minimum marriage age is both a religious and humanitarian necessity. Islam requires maturity, sound mind, and the ability to bear responsibility.',detail:'Al-Ghazali explains that child marriage contradicts Sharia objectives of preserving life, intellect, and lineage.',verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',verseRef:'An-Nisa 4:6',action:'Learn about marriage age laws in your country and compare them with Sharia objectives'},
+    fr:{title:'Le Debat sur l\'Age du Mariage',desc:'Fixer un age minimum pour le mariage est une necessite religieuse et humanitaire. L\'Islam exige la maturite, la raison et la capacite d\'assumer des responsabilites.',detail:'Al-Ghazali explique que le mariage des enfants contredit les objectifs de la Charia de preservation de la vie, de l\'intellect et de la lignee.',verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',verseRef:'An-Nisa 4:6',action:'Decouvrez les lois sur l\'age du mariage dans votre pays'}
+  },
+  {
+    id:23, emoji:'💒',
+    ar:{title:'الزواج بين الأديان',desc:'الزواج المختلط بين الأديان له ضوابط شرعية واضحة تهدف لحماية حقوق المرأة الدينية وتربية الأولاد.',detail:'الغزالي يشرح أن هذه القواعد تهدف لحماية حرية المرأة في ممارسة دينها لا للتمييز.',verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',verseRef:'البقرة ٢: ٢٢١',action:'افهم الحكمة من أحكام الزواج بين الأديان في الإسلام'},
+    en:{title:'Interfaith Marriage Rules',desc:'Interfaith marriage has clear Sharia guidelines that aim to protect the woman\'s religious rights and children\'s upbringing.',detail:'Al-Ghazali explains that these rules aim to protect a woman\'s freedom to practice her religion, not to discriminate between faiths.',verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',verseRef:'Al-Baqarah 2:221',action:'Understand the wisdom behind Islam\'s interfaith marriage rulings'},
+    fr:{title:'Les Regles du Mariage Interreligieux',desc:'Le mariage interreligieux a des directives claires en Charia qui visent a proteger les droits religieux de la femme et l\'education des enfants.',detail:'Al-Ghazali explique que ces regles visent a proteger la liberte de la femme de pratiquer sa religion.',verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',verseRef:'Al-Baqarah 2:221',action:'Comprenez la sagesse des regles islamiques sur le mariage interreligieux'}
+  },
+  {
+    id:24, emoji:'💳',
+    ar:{title:'الحقوق المالية للمطلقات',desc:'المطلقة لها حقوق مالية واضحة: نفقة العدة والمتعة والمؤخر وحق السكن. كثير من المجتمعات تتجاهل هذه الحقوق.',detail:'الغزالي يصر على أن حرمان المطلقة من حقوقها المالية ظلم محرم شرعاً.',verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ',verseRef:'البقرة ٢: ٢٤١',action:'تعرف على حقوق المطلقة المالية في الشريعة وقانون بلدك'},
+    en:{title:'Financial Rights of Divorcees',desc:'Divorcees have clear financial rights in Islam: maintenance during the waiting period, a compensatory gift, deferred dowry, and housing. Many societies ignore these rights.',detail:'Al-Ghazali insists that depriving a divorcee of her financial rights is a forbidden injustice.',verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ',verseRef:'Al-Baqarah 2:241',action:'Learn about the financial rights of divorcees in Sharia and your country\'s law'},
+    fr:{title:'Les Droits Financiers des Divorcees',desc:'Les divorcees ont des droits financiers clairs en Islam : pension pendant la periode d\'attente, don compensatoire, dot differee et logement.',detail:'Al-Ghazali insiste sur le fait que priver une divorcee de ses droits financiers est une injustice interdite.',verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ',verseRef:'Al-Baqarah 2:241',action:'Decouvrez les droits financiers des divorcees en Charia et dans la loi de votre pays'}
+  },
+  {
+    id:25, emoji:'🏛️',
+    ar:{title:'المحاكم الأسرية الحديثة',desc:'المحاكم الأسرية تحتاج إصلاحاً شاملاً لتكون أسرع وأعدل. الإسلام يقدم التحكيم الأسري كبديل.',detail:'الغزالي يشدد على أن القضاء الأسري الإسلامي يقوم على السرعة والعدل والسرية.',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'النساء ٤: ٣٥',action:'ادعم مبادرات التحكيم الأسري في مجتمعك'},
+    en:{title:'Modern Family Courts',desc:'Family courts need comprehensive reform to be faster and more just. Islam offers family arbitration as a sound alternative to prolonged litigation.',detail:'Al-Ghazali stresses that Islamic family justice is built on speed, fairness, confidentiality, and arbitration before ruling.',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'An-Nisa 4:35',action:'Support family arbitration initiatives in your community'},
+    fr:{title:'Les Tribunaux Familiaux Modernes',desc:'Les tribunaux familiaux ont besoin d\'une reforme globale pour etre plus rapides et plus justes. L\'Islam propose l\'arbitrage familial comme alternative.',detail:'Al-Ghazali insiste sur le fait que la justice familiale islamique repose sur la rapidite, l\'equite et la confidentialite.',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'An-Nisa 4:35',action:'Soutenez les initiatives d\'arbitrage familial dans votre communaute'}
   }
 ];
 
@@ -265,6 +295,78 @@ const FAMILY_LAW_DATA = [
     ar:{title:'القضاء الأسري',problem:'محاكم الأسرة في كثير من الدول العربية بطيئة وغير عادلة',solution:'الإسلام يدعو لقضاء سريع وعادل. التحكيم الأسري مبدأ قرآني يجب تفعيله',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'النساء ٤: ٣٥'},
     en:{title:'Family Courts',problem:'Family courts in many Arab countries are slow and unjust',solution:'Islam calls for swift and just judiciary. Family arbitration is a Quranic principle that must be activated',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'An-Nisa 4:35'},
     fr:{title:'Les Tribunaux de la Famille',problem:'Les tribunaux de la famille dans de nombreux pays arabes sont lents et injustes',solution:'L\'Islam appelle a une justice rapide et equitable. L\'arbitrage familial est un principe coranique qui doit etre active',verse:'فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا',verseRef:'An-Nisa 4:35'}
+  },
+  {
+    emoji:'💒',
+    ar:{title:'الزواج بين الأديان',
+      problem:'كثير من الشباب يتساءلون عن حكم الزواج المختلط بين الأديان وتزداد حالات الزواج المختلط في المهجر',
+      solution:'الإسلام وضع ضوابط واضحة لحماية حقوق المرأة الدينية وتربية الأولاد. الحوار والتفاهم قبل الزواج ضرورة',
+      verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',
+      verseRef:'البقرة ٢: ٢٢١'},
+    en:{title:'Interfaith Marriage',
+      problem:'Many young people ask about the ruling on interfaith marriage, and interfaith marriage cases increase in diaspora communities',
+      solution:'Islam set clear guidelines to protect women\'s religious rights and children\'s upbringing. Dialogue and understanding before marriage is essential',
+      verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',
+      verseRef:'Al-Baqarah 2:221'},
+    fr:{title:'Le Mariage Interreligieux',
+      problem:'Beaucoup de jeunes s\'interrogent sur le jugement du mariage interreligieux, et les cas augmentent dans les communautes de la diaspora',
+      solution:'L\'Islam a etabli des directives claires pour proteger les droits religieux des femmes et l\'education des enfants. Le dialogue avant le mariage est essentiel',
+      verse:'وَلَا تُنكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا',
+      verseRef:'Al-Baqarah 2:221'}
+  },
+  {
+    emoji:'👨‍👩‍👧',
+    ar:{title:'إصلاح الحضانة',
+      problem:'قوانين الحضانة في كثير من الدول لا تراعي مصلحة الطفل الحقيقية بل تطبق قواعد جامدة',
+      solution:'الإسلام يجعل مصلحة الطفل فوق كل اعتبار. الحضانة أمانة لا ملكية ويجب مراعاة البعد النفسي والتعليمي',
+      verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا',
+      verseRef:'البقرة ٢: ٢٣٣'},
+    en:{title:'Custody Reform',
+      problem:'Custody laws in many countries do not consider the child\'s real interest but apply rigid rules',
+      solution:'Islam places the child\'s welfare above all considerations. Custody is a trust not ownership, and psychological and educational dimensions must be considered',
+      verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا',
+      verseRef:'Al-Baqarah 2:233'},
+    fr:{title:'Reforme de la Garde',
+      problem:'Les lois de garde dans de nombreux pays ne tiennent pas compte de l\'interet reel de l\'enfant mais appliquent des regles rigides',
+      solution:'L\'Islam place le bien-etre de l\'enfant au-dessus de toute consideration. La garde est un depot, pas une propriete',
+      verse:'وَلَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا',
+      verseRef:'Al-Baqarah 2:233'}
+  },
+  {
+    emoji:'💰',
+    ar:{title:'حقوق المطلقة المالية',
+      problem:'كثير من المطلقات يُحرمن من حقوقهن المالية بسبب جهل بالقانون أو ضغط اجتماعي',
+      solution:'الإسلام يكفل للمطلقة نفقة العدة والمتعة والمؤخر والسكن. هذه حقوق شرعية لا منة من أحد',
+      verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ',
+      verseRef:'البقرة ٢: ٢٤١'},
+    en:{title:'Financial Rights of Divorcees',
+      problem:'Many divorcees are deprived of their financial rights due to ignorance of the law or social pressure',
+      solution:'Islam guarantees the divorcee maintenance, compensatory gift, deferred dowry, and housing. These are legal rights, not favors from anyone',
+      verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ',
+      verseRef:'Al-Baqarah 2:241'},
+    fr:{title:'Droits Financiers des Divorcees',
+      problem:'De nombreuses divorcees sont privees de leurs droits financiers en raison de l\'ignorance de la loi ou de la pression sociale',
+      solution:'L\'Islam garantit a la divorcee la pension, le don compensatoire, la dot differee et le logement. Ce sont des droits legaux',
+      verse:'وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ',
+      verseRef:'Al-Baqarah 2:241'}
+  },
+  {
+    emoji:'🔞',
+    ar:{title:'سن الزواج',
+      problem:'زواج القاصرات لا يزال مشكلة في بعض المجتمعات التي تحتج بالدين لتبريره',
+      solution:'الإسلام يشترط البلوغ والرشد والقدرة. مقاصد الشريعة تدعم تحديد سن أدنى للزواج',
+      verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',
+      verseRef:'النساء ٤: ٦'},
+    en:{title:'Marriage Age',
+      problem:'Child marriage remains a problem in some communities that invoke religion to justify it',
+      solution:'Islam requires maturity, sound mind, and capability. Sharia objectives support setting a minimum marriage age',
+      verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',
+      verseRef:'An-Nisa 4:6'},
+    fr:{title:'L\'Age du Mariage',
+      problem:'Le mariage des mineurs reste un probleme dans certaines communautes qui invoquent la religion pour le justifier',
+      solution:'L\'Islam exige la maturite, la raison et la capacite. Les objectifs de la Charia soutiennent la fixation d\'un age minimum',
+      verse:'وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ',
+      verseRef:'An-Nisa 4:6'}
   }
 ];
 
@@ -277,7 +379,14 @@ const HABITS = [
   {emoji:'🎁',ar:{label:'أدخل السرور على أحد أفراد أسرتك',source:'المودة والرحمة'},en:{label:'Bring joy to a family member',source:'Love and mercy'},fr:{label:'Apporter de la joie a un membre de la famille',source:'Amour et misericorde'}},
   {emoji:'⚖️',ar:{label:'تعلّم حكماً فقهياً عن الأسرة',source:'التعلم المستمر'},en:{label:'Learn a ruling about family law',source:'Continuous learning'},fr:{label:'Apprendre une regle du droit familial',source:'Apprentissage continu'}},
   {emoji:'👶',ar:{label:'اقضِ وقتاً نوعياً مع الأطفال',source:'حقوق الأولاد'},en:{label:'Spend quality time with children',source:'Children\'s rights'},fr:{label:'Passer du temps de qualite avec les enfants',source:'Droits des enfants'}},
-  {emoji:'🌙',ar:{label:'ادعُ دعاء الأسرة قبل النوم',source:'أذكار المساء'},en:{label:'Say the family dua before sleep',source:'Evening remembrance'},fr:{label:'Dire le dua familial avant le sommeil',source:'Rappels du soir'}}
+  {emoji:'🌙',ar:{label:'ادعُ دعاء الأسرة قبل النوم',source:'أذكار المساء'},en:{label:'Say the family dua before sleep',source:'Evening remembrance'},fr:{label:'Dire le dua familial avant le sommeil',source:'Rappels du soir'}},
+  {emoji:'💒',ar:{label:'تعرف على حكم فقهي عن الزواج بين الأديان',source:'فقه الزواج'},en:{label:'Learn a ruling about interfaith marriage',source:'Marriage jurisprudence'},fr:{label:'Apprenez une regle sur le mariage interreligieux',source:'Jurisprudence du mariage'}},
+  {emoji:'🏛️',ar:{label:'ادعم مبادرة تحكيم أسري في مجتمعك',source:'إصلاح القضاء الأسري'},en:{label:'Support a family arbitration initiative in your community',source:'Family court reform'},fr:{label:'Soutenez une initiative d\'arbitrage familial dans votre communaute',source:'Reforme du tribunal familial'}},
+  {emoji:'👧',ar:{label:'تعلم عن حقوق الطفل في الإسلام',source:'حقوق الطفل'},en:{label:'Learn about children\'s rights in Islam',source:'Children\'s rights'},fr:{label:'Apprenez les droits de l\'enfant en Islam',source:'Droits de l\'enfant'}},
+  {emoji:'💳',ar:{label:'تعرف على حقوق المطلقة المالية',source:'حقوق المطلقات'},en:{label:'Learn about divorcee financial rights',source:'Divorcee rights'},fr:{label:'Decouvrez les droits financiers des divorcees',source:'Droits des divorcees'}},
+  {emoji:'📜',ar:{label:'اقرأ عن تجربة إصلاح قانون الأسرة في بلد إسلامي',source:'الإصلاح القانوني'},en:{label:'Read about family law reform experience in a Muslim country',source:'Legal reform'},fr:{label:'Lisez sur l\'experience de reforme du droit familial dans un pays musulman',source:'Reforme juridique'}},
+  {emoji:'🔞',ar:{label:'تعرف على موقف الشريعة من سن الزواج',source:'فقه الزواج'},en:{label:'Learn about Sharia\'s stance on marriage age',source:'Marriage jurisprudence'},fr:{label:'Decouvrez la position de la Charia sur l\'age du mariage',source:'Jurisprudence du mariage'}},
+  {emoji:'👨‍👩‍👧',ar:{label:'ادعم حق الطفل في الحضانة المشتركة',source:'حقوق الحضانة'},en:{label:'Support the child\'s right to shared custody',source:'Custody rights'},fr:{label:'Soutenez le droit de l\'enfant a la garde partagee',source:'Droits de garde'}}
 ];
 
 // ═══════════════ QUIZ DATA ═══════════════
@@ -293,7 +402,33 @@ const QUIZ = [
   {ar:'هل تؤيد حق المرأة في التعليم والعمل؟',en:'Do you support women\'s right to education and work?',fr:'Soutenez-vous le droit des femmes a l\'education et au travail ?'},
   {ar:'هل تعرف الفرق بين القوامة والتسلط؟',en:'Do you know the difference between guardianship and domination?',fr:'Connaissez-vous la difference entre la tutelle et la domination ?'},
   {ar:'هل تساهم في حماية حقوق الأيتام؟',en:'Do you contribute to protecting orphans\' rights?',fr:'Contribuez-vous a la protection des droits des orphelins ?'},
-  {ar:'هل تؤمن بضرورة تحديث قوانين الأسرة؟',en:'Do you believe in the necessity of modernizing family laws?',fr:'Croyez-vous en la necessite de moderniser les lois familiales ?'}
+  {ar:'هل تؤمن بضرورة تحديث قوانين الأسرة؟',en:'Do you believe in the necessity of modernizing family laws?',fr:'Croyez-vous en la necessite de moderniser les lois familiales ?'},
+  {ar:'هل تعرف حقوق الحضانة عند الطلاق في الإسلام؟',en:'Do you know custody rights upon divorce in Islam?',fr:'Connaissez-vous les droits de garde lors du divorce en Islam ?'},
+  {ar:'هل تعتقد أن التحكيم الأسري أفضل من المحاكم في حل النزاعات؟',en:'Do you think family arbitration is better than courts for resolving disputes?',fr:'Pensez-vous que l\'arbitrage familial est meilleur que les tribunaux pour resoudre les conflits ?'},
+  {ar:'هل يجب تحديد سن أدنى للزواج في القانون الإسلامي؟',
+    en:'Should a minimum marriage age be set in Islamic law?',
+    fr:'Faut-il fixer un age minimum pour le mariage en droit islamique ?'},
+  {ar:'هل تعرف الفرق بين حق الحضانة وحق الولاية في الإسلام؟',
+    en:'Do you know the difference between custody and guardianship rights in Islam?',
+    fr:'Connaissez-vous la difference entre le droit de garde et le droit de tutelle en Islam ?'},
+  {ar:'هل يحق للمرأة المسلمة الاحتفاظ بلقبها العائلي بعد الزواج؟',
+    en:'Does a Muslim woman have the right to keep her family name after marriage?',
+    fr:'Une femme musulmane a-t-elle le droit de garder son nom de famille apres le mariage ?'},
+  {ar:'هل تعلم أن الزواج المدني والزواج الشرعي يمكن أن يتكاملا؟',
+    en:'Do you know that civil marriage and religious marriage can complement each other?',
+    fr:'Savez-vous que le mariage civil et le mariage religieux peuvent se completer ?'},
+  {ar:'هل تدعم حق المرأة في طلب فسخ الزواج عند الضرر؟',
+    en:'Do you support a woman\'s right to seek annulment in cases of harm?',
+    fr:'Soutenez-vous le droit de la femme a demander l\'annulation du mariage en cas de prejudice ?'},
+  {ar:'هل تعرف حقوق الأطفال في النفقة بعد طلاق الوالدين؟',
+    en:'Do you know children\'s rights to financial support after their parents\' divorce?',
+    fr:'Connaissez-vous les droits des enfants a la pension alimentaire apres le divorce de leurs parents ?'},
+  {ar:'هل تعلم أن الزواج العرفي يحرم المرأة من كثير من حقوقها القانونية؟',
+    en:'Do you know that customary marriage deprives women of many of their legal rights?',
+    fr:'Savez-vous que le mariage coutumier prive les femmes de beaucoup de leurs droits legaux ?'},
+  {ar:'هل تؤمن بأهمية التوعية القانونية للأسر المسلمة؟',
+    en:'Do you believe in the importance of legal awareness for Muslim families?',
+    fr:'Croyez-vous en l\'importance de la sensibilisation juridique pour les familles musulmanes ?'}
 ];
 
 // ═══════════════ DUAS DATA ═══════════════
@@ -305,7 +440,9 @@ const DUAS = [
   {ar:{label:'دعاء الألفة',text:'اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا',tr:'اللهم ألف بين قلوبنا وأصلح ذات بيننا'},en:{label:'Dua for Harmony',text:'اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا',tr:'O God, unite our hearts and rectify our affairs'},fr:{label:'Dua pour l\'Harmonie',text:'اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا وَأَصْلِحْ ذَاتَ بَيْنِنَا',tr:'O Dieu, unis nos coeurs et rectifie nos affaires'}},
   {ar:{label:'دعاء الحفظ',text:'اللَّهُمَّ احْفَظْ أَهْلِي وَذُرِّيَّتِي مِن كُلِّ سُوءٍ',tr:'اللهم احفظ أهلي وذريتي من كل سوء'},en:{label:'Dua for Protection',text:'اللَّهُمَّ احْفَظْ أَهْلِي وَذُرِّيَّتِي مِن كُلِّ سُوءٍ',tr:'O God, protect my family and offspring from all evil'},fr:{label:'Dua pour la Protection',text:'اللَّهُمَّ احْفَظْ أَهْلِي وَذُرِّيَّتِي مِن كُلِّ سُوءٍ',tr:'O Dieu, protege ma famille et ma descendance de tout mal'}},
   {ar:{label:'دعاء الهداية',text:'رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ',tr:'ربنا اغفر لنا ولإخواننا الذين سبقونا بالإيمان'},en:{label:'Dua for Guidance',text:'رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ',tr:'Our Lord, forgive us and our brothers who preceded us in faith'},fr:{label:'Dua pour la Guidance',text:'رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ',tr:'Notre Seigneur, pardonne-nous ainsi qu\'a nos freres qui nous ont precedes dans la foi'}},
-  {ar:{label:'دعاء الرحمة',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'رب ارحمهما كما ربياني صغيراً'},en:{label:'Dua for Parents',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'My Lord, have mercy on them as they raised me when I was small'},fr:{label:'Dua pour les Parents',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'Mon Seigneur, fais-leur misericorde comme ils m\'ont eleve quand j\'etais petit'}}
+  {ar:{label:'دعاء الرحمة',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'رب ارحمهما كما ربياني صغيراً'},en:{label:'Dua for Parents',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'My Lord, have mercy on them as they raised me when I was small'},fr:{label:'Dua pour les Parents',text:'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',tr:'Mon Seigneur, fais-leur misericorde comme ils m\'ont eleve quand j\'etais petit'}},
+  {ar:{label:'دعاء العدل',text:'رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنتَ خَيْرُ الْفَاتِحِينَ',tr:'ربنا افتح بيننا وبين قومنا بالحق وأنت خير الفاتحين'},en:{label:'Dua for Justice',text:'رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنتَ خَيْرُ الْفَاتِحِينَ',tr:'Our Lord, decide between us and our people in truth, and You are the best of those who decide'},fr:{label:'Dua pour la Justice',text:'رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنتَ خَيْرُ الْفَاتِحِينَ',tr:'Notre Seigneur, tranche entre nous et notre peuple en verite, Tu es le meilleur des juges'}},
+  {ar:{label:'دعاء الصلاح',text:'رَبَّنَا أَصْلِحْ لَنَا شَأْنَنَا كُلَّهُ وَلَا تَكِلْنَا إِلَىٰ أَنفُسِنَا طَرْفَةَ عَيْنٍ',tr:'ربنا أصلح لنا شأننا كله ولا تكلنا إلى أنفسنا طرفة عين'},en:{label:'Dua for Rectification',text:'رَبَّنَا أَصْلِحْ لَنَا شَأْنَنَا كُلَّهُ وَلَا تَكِلْنَا إِلَىٰ أَنفُسِنَا طَرْفَةَ عَيْنٍ',tr:'Our Lord, rectify all our affairs and do not leave us to ourselves for the blink of an eye'},fr:{label:'Dua pour la Rectification',text:'رَبَّنَا أَصْلِحْ لَنَا شَأْنَنَا كُلَّهُ وَلَا تَكِلْنَا إِلَىٰ أَنفُسِنَا طَرْفَةَ عَيْنٍ',tr:'Notre Seigneur, rectifie toutes nos affaires et ne nous laisse pas a nous-memes un clin d\'oeil'}}
 ];
 
 // ═══════════════ STATE ═══════════════
