@@ -476,7 +476,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function initSplash() {
   let count = 5;
   const el = document.getElementById('splashCount');
+  if (!el) return;
   const featuresEl = document.getElementById('splashFeatures');
+  if (!featuresEl) return;
   if (featuresEl) {
     featuresEl.innerHTML = T[lang].splashFeatures.map((f, i) =>
       `<div class="splash-feature" style="animation-delay:${0.3 + i * 0.3}s">${f}</div>`
@@ -490,6 +492,7 @@ function initSplash() {
 }
 function dismissSplash() {
   const s = document.getElementById('splash');
+  if (!s) return;
   if (s) { s.classList.add('hidden'); setTimeout(() => s.style.display = 'none', 500); }
   playSound('click');
 }
@@ -516,6 +519,7 @@ function setLang(l) {
   set('habitsReset', t.resetBtn);
   renderHome(); renderCards(); renderFamilyLaw(); renderHabits(); renderQuiz(); renderAbout(); renderHelp(); renderDuas();
   const featuresEl = document.getElementById('splashFeatures');
+  if (!featuresEl) return;
   if (featuresEl) {
     featuresEl.innerHTML = T[l].splashFeatures.map((f, i) =>
       `<div class="splash-feature" style="animation-delay:${0.3 + i * 0.3}s">${f}</div>`
@@ -530,6 +534,7 @@ function setTheme(t) {
   localStorage.setItem('iqas-theme', t);
   const idx = themes.indexOf(t);
   const el = document.getElementById('themeIcon');
+  if (!el) return;
   if (el) el.textContent = themeIcons[idx];
 }
 function cycleTheme() {
@@ -686,6 +691,7 @@ function renderHabits() {
     </div>`;
   }).join('');
   const streakEl = document.getElementById('streakBadge');
+  if (!streakEl) return;
   if (streakEl) streakEl.innerHTML = streakHTML;
   updateHabitsProgress(habitsState);
 }
@@ -713,7 +719,9 @@ function updateHabitsProgress(hs) {
   const total = HABITS.length;
   const pct = total > 0 ? (done / total * 100) : 0;
   const fill = document.getElementById('habitsFill');
+  if (!fill) return;
   const txt = document.getElementById('habitsText');
+  if (!txt) return;
   if (fill) fill.style.width = pct + '%';
   if (txt) txt.textContent = `${done}/${total}`;
 }
@@ -799,6 +807,7 @@ function submitQuiz() {
     desc = lang==='ar'?'فقه الأسرة مهم جداً. ابدأ بقراءة البطاقات وتعلّم حقوقك وواجباتك.':lang==='fr'?'Le droit familial est tres important. Commencez par lire les cartes.':'Family law is very important. Start by reading the cards.';
   }
   const result = document.getElementById('quizResult');
+  if (!result) return;
   result.classList.remove('hidden');
   result.innerHTML = `<div class="qr-emoji">${emoji}</div><div class="qr-score">${pct}%</div><div class="qr-title">${title}</div><div class="qr-desc">${desc}</div><button class="quiz-submit" onclick="renderQuiz()" style="margin-top:16px">${T[lang].quizAgain}</button>`;
   result.scrollIntoView({ behavior: 'smooth' });
@@ -880,12 +889,15 @@ function initScrollReveal() {
 function initKeyboardNav() {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      const hp = document.getElementById('helpPanel'); if (!hp.classList.contains('hidden')) { toggleHelp(); return; }
-      const dp = document.getElementById('duaPanel'); if (!dp.classList.contains('hidden')) { toggleDuaPanel(); return; }
+      const hp = document.getElementById('helpPanel');
+      if (!hp) return; if (!hp.classList.contains('hidden')) { toggleHelp(); return; }
+      const dp = document.getElementById('duaPanel');
+      if (!dp) return; if (!dp.classList.contains('hidden')) { toggleDuaPanel(); return; }
       document.querySelectorAll('.principle-card.open').forEach(c => c.classList.remove('open'));
     }
     if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       const cp = document.getElementById('panel-cards');
+      if (!cp) return;
       if (!cp || !cp.classList.contains('active')) return;
       if (document.activeElement && document.activeElement.id === 'cardsSearch') return;
       e.preventDefault();
